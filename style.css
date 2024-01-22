@@ -29,3 +29,79 @@ a:active {
 a:hover {
   color: hsl(53, 7%, 58%);
 }
+
+/* Main container */
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Header */
+.header {
+  min-width: 1400px;
+  padding: 0 344px;
+  display: flex;
+  width: 100%;
+  border-bottom: 1px solid #1f2937;
+  height: 72px;
+  align-items: center;
+}
+
+.logo-container {
+  margin-right: auto;
+}
+
+.logo {
+  width: 56px;
+  height: 56px;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.navigation a {
+  padding: 12px 0;
+}
+
+.nav-right {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+
+}
+
+.nav-right a {
+  text-align: center;
+}
+
+.outages {
+  border-radius: 6px;
+  width: 110px;
+  padding: 12px;
+  background-color: #bb4430;
+  border-radius: 6px;
+  color: #0c0c0b;
+}
+
+.outages:hover {
+  background-color: #8b3425;
+
+}
+
+.account {
+  border-radius: 6px;
+  width: 110px;
+  padding: 12px;
+  background-color: #e8c468;
+  color: #0c0c0b;
+}
+
+.account:hover {
+  background-color: #ac914e;
+}
+
+/* Hero */
