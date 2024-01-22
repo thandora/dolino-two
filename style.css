@@ -60,11 +60,17 @@ a:hover {
 .navigation {
   display: flex;
   align-items: center;
-  gap: 20px;
+  gap: 32px;
 }
 
 .navigation a {
   padding: 12px 0;
+}
+
+.navigation a:hover {
+  border-bottom: 1px solid;
+  color: #d2d1c9;
+
 }
 
 .nav-right {
@@ -105,3 +111,20 @@ a:hover {
 }
 
 /* Hero */
+.hero {
+  background-color: #274854;
+  width: 100%;
+  height: 320px;
+  padding: 0 490px;
+  position: relative;
+  background-image: url(img/hero.png);
+}
+
+.title-header {
+  color: #e8c468;
+  font-size: 4rem;
+}
+
+.tagline {
+  font-size: 1.2rem;
+}
