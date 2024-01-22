@@ -139,8 +139,43 @@ a:hover {
 }
 
 /* Content */
-/* later */
+.main {
+  padding: 80px;
+  padding-top: 40px;
 
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  width: 920px;
+  background-color: #274854;
+  padding: 18px 40px;
+}
+
+.media img {
+  width: 150px;
+  height: 150px;
+}
+
+.title {
+  margin: 0;
+}
+
+
+.media {
+  display: flex;
+  justify-content: center;
+}
+
+.more {
+  margin-left: auto;
+  color: #e8c468;;
+}
 
 /* Footer */
 .footer {
