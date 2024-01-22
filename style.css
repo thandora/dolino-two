@@ -35,6 +35,7 @@ a:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
+  height: 100vh;
 }
 
 /* Header */
@@ -49,7 +50,7 @@ a:hover {
 }
 
 .logo-container {
-  margin-right: auto;
+  display: flex;
 }
 
 .logo {
@@ -71,6 +72,14 @@ a:hover {
   border-bottom: 1px solid;
   color: #d2d1c9;
 
+}
+
+.cost {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #e8c468;
+  margin-left: 24px;
+  margin-right: auto;
 }
 
 .nav-right {
@@ -127,4 +136,36 @@ a:hover {
 
 .tagline {
   font-size: 1.2rem;
+}
+
+/* Content */
+/* later */
+
+
+/* Footer */
+.footer {
+  width: 100%;
+  margin-top: auto;
+
+  min-width: 1400px;
+  padding: 0 344px;
+  display: flex;
+  width: 100%;
+  border-top: 1px solid #1f2937;
+  height: 72px;
+  align-items: center;
+}
+
+.copyright {
+  margin-right: auto;
+}
+
+.nav-footer {
+  display: flex;
+  gap: 32px;
+  align-items: center;
+}
+
+.nav-footer a i {
+  font-size: 1.5rem;
 }
